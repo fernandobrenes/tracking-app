@@ -1,0 +1,103 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+*.pyenv/
+
+# Flask specific files
+instance/
+*.log
+*.db
+*.sqlite3
+
+# Flask secrets
+config.py
+*.env
+.env.*
+env.*
+.envrc
+.secret
+
+# Flask migrations
+migrations/
+
+# Nginx specific files
+nginx/*.log
+nginx/*.conf
+sites-enabled/
+sites-available/
+logs/
+
+# MySQL specific files
+mysql/data/
+mysql/logs/
+*.sql
+*.sql.gz
+
+# Docker specific files
+*.log
+docker-compose.override.yml
+docker-compose.override*.yml
+docker-compose*.log
+.dockerignore
+Dockerfile.*
+docker-compose.yml
+
+# Ignore any Docker build-related files
+build/
+.cache/
+*.pid
+*.swp
+
+# System specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+
+# Test coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+*.cover
+*.py,cover
+.cache
+test-results/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pypackages__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pycharm specific
+.idea/
+*.iml
+*.sublime-workspace
+
+# pipenv
+Pipfile.lock
